@@ -1,0 +1,1 @@
+A Python implementation of Deep Belief Networks based on the scikit-learn library
