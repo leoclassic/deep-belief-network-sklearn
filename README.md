@@ -3,7 +3,7 @@ A Python implementation of Deep Belief Networks based on the scikit-learn librar
 ### Installation ###
 pip install git+https://github.com/leoclassic/deep-belief-network-sklearn.git
 
-### Import the DBN library ###
+### Example ###
 from dbn_sklearn import DBN\
 from sklearn.datasets import load_iris\
 from sklearn.preprocessing import MinMaxScaler
