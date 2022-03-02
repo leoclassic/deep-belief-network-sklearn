@@ -1,1 +1,1 @@
-from ._dbn import *
+from ._dbn import DBN
