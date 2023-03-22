@@ -37,7 +37,7 @@ class DBN(MLPClassifier):
         hidden_layer_sizes = list(hidden_layer_sizes)
 
         # Validate input parameters.
-        self._validate_hyperparameters()
+        # self._validate_hyperparameters()
         if np.any(np.array(hidden_layer_sizes) <= 0):
             raise ValueError(
                 "hidden_layer_sizes must be > 0, got %s." % hidden_layer_sizes
