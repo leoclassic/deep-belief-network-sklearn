@@ -8,7 +8,7 @@ from sklearn.utils import gen_batches, check_random_state
 _STOCHASTIC_SOLVERS = ["sgd", "adam"]
 class DBN(MLPClassifier):
     def __init__(self, rbm_lr=0.001, rbm_epoch=100, **kwargs):
-        super().__init__(**kwargs)
+        super().__init__(activation='logistic', **kwargs)
         self.rbm_lr = rbm_lr
         self.rbm_epoch = rbm_epoch
 
